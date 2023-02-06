@@ -30,8 +30,8 @@
 
         event.preventDefault();
         var usertoken = form.usertoken.value;
-        if(form.userid.value == "testuser" && form.password.value == "1234")
-        {
+        // if(form.userid.value == "testuser" && form.password.value == "1234")
+        // {
           if(usertoken){
             window.location.href = `https://kiranp-bv.github.io/SiteAuthenticationProd/container.html?bveventid=${bveventid}&bvuserToken=${usertoken}`
 
@@ -39,11 +39,11 @@
             alert("Please enter User Token");
 
           }
-        }
-        else
-        {
-          alert("Invalid Login Credentials");
-        }
+        // }
+        // else
+        // {
+        //   alert("Invalid Login Credentials");
+        // }
       }
     </script>
   </body>
